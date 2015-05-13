@@ -10,7 +10,6 @@
  *      Written by: Bill Hastings, RBI Software Systems (bhastings@rbi.com)
  *
  *      Modified by: Shmuli Markel (shmuel.markel@gmail.com)
- *
  */
 
 var com = {} || com;
