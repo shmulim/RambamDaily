@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'FrankRuehlRegular';
+    src: url('frank.eot');
+    src: url('frank.eot') format('embedded-opentype'),
+         url('frank.woff') format('woff'),
+         url('frank.ttf') format('truetype'),
+         url('frank.svg#FrankRuehlRegular') format('svg');
+}
+
+/* shmuli markel - added */
+.hebrewcontainer a[id^="page_number"] {
+font-family: Miriam !important;
+font-size: 11pt !important;
+}
+
+.hebrewcontainer
+{
+	font-family:FrankRuehlRegular !important;
+	font-size:18px;
+}
+
+.hebrewcontainer h1,.hebrewcontainer h2 {
+	margin: 0 3em 0 0 !important;
+}
+
+.hebrewcontainer h1 { font-size: 24pt; }
+.hebrewcontainer h2 { font-size: 20pt !important; }
+
+.hebrewcontainer a { color:#000 !important; }
